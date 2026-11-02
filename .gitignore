@@ -1,0 +1,13 @@
+# Dados brutos do Kaggle (baixar com o README) e material do curso (uso pessoal)
+data/
+material_fiap/
+analytics/
+
+# Ambiente
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+kaggle.json
+~$*

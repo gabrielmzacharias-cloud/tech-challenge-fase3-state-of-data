@@ -1,0 +1,18 @@
+{
+ "01_cargos_2025": 1.9646,
+ "02_senioridade_ano": 1.9646,
+ "03_setores_2025": 1.9646,
+ "04_salario_cargo_2025": 1.9646,
+ "05_salario_senioridade_ano": 1.9646,
+ "06_genero_senioridade_2025": 2.1611,
+ "07_tecnologias_2025": 1.6517,
+ "08_cloud_evolucao": 1.9646,
+ "09_ia_adocao_evolucao": 1.9646,
+ "10_ia_prioridade_empresas": 1.9646,
+ "11_ia_resultados_2025": 1.9646,
+ "12_ia_impacto_2025": 2.9197,
+ "13_regiao_2025": 2.5522,
+ "14_modelo_trabalho_2025": 1.9646,
+ "15_financas_vs_mercado_2025": 1.9646,
+ "arquitetura_aws": 2.0526
+}
