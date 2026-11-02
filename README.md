@@ -117,7 +117,9 @@ python scripts/gerar_ddl_athena.py   # gera sql/01_athena_ddl.sql a partir dos P
 python scripts/gerar_arquitetura.py  # gera o .drawio da arquitetura
 python scripts/preparar_graficos_deck.py  # diagrama de arquitetura recortado para o deck
 python scripts/exportar_dados_deck.py     # séries dos gráficos nativos do deck (Gold -> entrega/assets/dados_deck.json)
-node scripts/gerar_deck.js           # requer pptxgenjs, react, react-dom, react-icons e sharp (NODE_PATH) e PPTX_SKILL_DIR para aplicar o tema
+node scripts/gerar_deck.js                 # deck da FIAP; requer pptxgenjs (NODE_PATH) e PPTX_SKILL_DIR para aplicar o tema
+node scripts/gerar_carrossel_linkedin.js   # versão curta em carrossel (entrega/linkedin/)
+# fontes: Schibsted Grotesk e JetBrains Mono (Google Fonts, OFL) instaladas para o PDF sair fiel
 ```
 
 ## Estrutura
