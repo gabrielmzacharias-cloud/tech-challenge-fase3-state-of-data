@@ -1,0 +1,502 @@
+{
+ "kpis": {
+  "2023": {
+   "respondentes": 5293,
+   "atuam_em_dados": 4753,
+   "pct_mulheres": 24,
+   "pct_gestores": 18,
+   "pct_financas": 19,
+   "pct_remoto": 46,
+   "pct_usa_ia_generativa": 80,
+   "pct_empresa_paga_ia": 6,
+   "pct_satisfeitos": 72,
+   "salario_medio": 10500.0,
+   "salario_mediano": 10000.5
+  },
+  "2024": {
+   "respondentes": 5215,
+   "atuam_em_dados": 4861,
+   "pct_mulheres": 23,
+   "pct_gestores": 21,
+   "pct_financas": 21,
+   "pct_remoto": 45,
+   "pct_usa_ia_generativa": 93,
+   "pct_empresa_paga_ia": 19,
+   "pct_satisfeitos": 68,
+   "salario_medio": 12025.0,
+   "salario_mediano": 10000.5
+  },
+  "2025": {
+   "respondentes": 3494,
+   "atuam_em_dados": 3227,
+   "pct_mulheres": 22,
+   "pct_gestores": 22,
+   "pct_financas": 18,
+   "pct_remoto": 39,
+   "pct_usa_ia_generativa": 97,
+   "pct_empresa_paga_ia": 42,
+   "pct_satisfeitos": 69,
+   "salario_medio": 13222.0,
+   "salario_mediano": 10000.5
+  }
+ },
+ "cargos_2025": {
+  "categorias": [
+   "Gestor(a)",
+   "Analista de Dados",
+   "Engenheiro(a)/Arquiteto(a) de Dados",
+   "Cientista de Dados",
+   "Analista de BI",
+   "Analista de Negócios",
+   "Analytics Engineer",
+   "Engenheiro(a) de ML/IA",
+   "Dev/Eng. de Software",
+   "Product Manager de Dados"
+  ],
+  "pct": [
+   22.5,
+   18.6,
+   13.3,
+   13.1,
+   6.7,
+   4.4,
+   4.2,
+   3.3,
+   3.3,
+   1.0
+  ]
+ },
+ "senioridade_ano": {
+  "categorias": [
+   "Júnior",
+   "Pleno",
+   "Sênior",
+   "Especialista/Staff+",
+   "Gestor(a)"
+  ],
+  "series": {
+   "2023": [
+    22.0,
+    29.3,
+    29.9,
+    0.0,
+    18.9
+   ],
+   "2024": [
+    17.9,
+    28.3,
+    32.3,
+    0.0,
+    21.5
+   ],
+   "2025": [
+    16.1,
+    24.0,
+    26.6,
+    10.8,
+    22.5
+   ]
+  }
+ },
+ "setores_2025": {
+  "categorias": [
+   "Finanças ou Bancos",
+   "Tecnologia/Fábrica de Software",
+   "Área de Consultoria",
+   "Outra Opção",
+   "Indústria",
+   "Varejo",
+   "Educação",
+   "Setor Público",
+   "Área da Saúde",
+   "Internet/Ecommerce"
+  ],
+  "pct": [
+   18.5,
+   17.4,
+   8.8,
+   7.5,
+   7.3,
+   5.6,
+   5.0,
+   4.2,
+   4.0,
+   3.2
+  ]
+ },
+ "salario_cargo_2025": {
+  "categorias": [
+   "Gestor(a)",
+   "Engenheiro(a) de ML/IA",
+   "Product Manager de Dados",
+   "Engenheiro(a)/Arquiteto(a) de Dados",
+   "Analytics Engineer",
+   "Dev/Eng. de Software",
+   "Cientista de Dados",
+   "Analista de Negócios",
+   "Analista de Dados",
+   "Analista de BI"
+  ],
+  "mil": [
+   20.2,
+   19.1,
+   18.1,
+   14.5,
+   13.3,
+   13.1,
+   12.9,
+   8.9,
+   8.8,
+   7.6
+  ]
+ },
+ "salario_senioridade_ano": {
+  "categorias": [
+   "Júnior",
+   "Pleno",
+   "Sênior",
+   "Especialista/Staff+",
+   "Gestor(a)"
+  ],
+  "series": {
+   "2023": [
+    3.9,
+    7.5,
+    13.7,
+    0.0,
+    17.8
+   ],
+   "2024": [
+    4.2,
+    8.0,
+    14.6,
+    0.0,
+    19.9
+   ],
+   "2025": [
+    4.2,
+    8.3,
+    14.5,
+    20.0,
+    20.2
+   ]
+  }
+ },
+ "genero": {
+  "total": {
+   "2023": {
+    "pct_mulheres": 24.4,
+    "gap": 18.0
+   },
+   "2024": {
+    "pct_mulheres": 23.5,
+    "gap": 19.2
+   },
+   "2025": {
+    "pct_mulheres": 22.0,
+    "gap": 19.4
+   }
+  },
+  "categorias": [
+   "Júnior",
+   "Pleno",
+   "Sênior",
+   "Especialista/Staff+",
+   "Gestor(a)"
+  ],
+  "pct_mulheres": [
+   28.2,
+   22.3,
+   20.7,
+   20.1,
+   18.4
+  ],
+  "gap": [
+   12.5,
+   0.0,
+   19.3,
+   14.9,
+   12.6
+  ],
+  "gap_original": [
+   12.5,
+   -0.5,
+   19.3,
+   14.9,
+   12.6
+  ]
+ },
+ "tecnologias_2025": {
+  "Linguagens": {
+   "categorias": [
+    "Python",
+    "SQL",
+    "R",
+    "Scala",
+    "C/C++/C#",
+    "Rust"
+   ],
+   "pct": [
+    92.0,
+    84.2,
+    15.6,
+    3.3,
+    2.3,
+    1.7
+   ]
+  },
+  "Bancos de dados": {
+   "categorias": [
+    "PostgreSQL",
+    "SQL Server",
+    "Databricks",
+    "S3",
+    "MySQL",
+    "Google BigQuery"
+   ],
+   "pct": [
+    36.8,
+    33.5,
+    32.9,
+    28.8,
+    28.5,
+    27.0
+   ]
+  },
+  "Cloud": {
+   "categorias": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "On-premise (sem cloud)",
+    "Cloud Própria",
+    "Oracle Cloud"
+   ],
+   "pct": [
+    48.3,
+    34.8,
+    30.9,
+    14.3,
+    5.4,
+    4.5
+   ]
+  },
+  "Ferramentas de BI": {
+   "categorias": [
+    "Power BI",
+    "Looker",
+    "Looker Studio",
+    "Tableau",
+    "Nenhuma",
+    "Somente Excel/Planilhas"
+   ],
+   "pct": [
+    59.0,
+    22.6,
+    15.6,
+    13.6,
+    11.4,
+    10.3
+   ]
+  }
+ },
+ "cloud_evolucao": {
+  "anos": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "series": {
+   "AWS": [
+    30.6,
+    44.1,
+    48.3
+   ],
+   "Azure": [
+    42.3,
+    30.9,
+    34.8
+   ],
+   "GCP": [
+    31.6,
+    29.2,
+    30.9
+   ]
+  }
+ },
+ "ia_adocao": {
+  "anos": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "usa": [
+   80.3,
+   93.5,
+   97.9
+  ],
+  "empresa_paga": [
+   6.4,
+   19.3,
+   42.3
+  ]
+ },
+ "ia_prioridade": {
+  "anos": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "series": {
+   "Principal prioridade": [
+    12.3,
+    22.5,
+    23.8
+   ],
+   "Entre as prioridades": [
+    23.9,
+    31.1,
+    36.8
+   ],
+   "Iniciativas isoladas": [
+    30.7,
+    28.8,
+    25.9
+   ],
+   "Não é prioridade": [
+    28.8,
+    14.8,
+    11.3
+   ],
+   "Não sei opinar": [
+    4.4,
+    2.8,
+    2.1
+   ]
+  }
+ },
+ "ia_resultados_2025": {
+  "categorias": [
+   "Em produção, gerando resultado",
+   "Pilotos com pouco impacto",
+   "Em investigação/planejamento",
+   "Ainda não começou",
+   "Não sei opinar"
+  ],
+  "pct": [
+   26.5,
+   38.4,
+   15.0,
+   13.5,
+   6.7
+  ]
+ },
+ "ia_impacto_2025": {
+  "perfis": [
+   "Empresa fornece IA",
+   "Usa IA por conta própria",
+   "Não usa IA"
+  ],
+  "n": [
+   891,
+   1170,
+   44
+  ],
+  "salario_mil": [
+   13.4,
+   10.1,
+   10.3
+  ],
+  "pct_senior_ou_gestor": [
+   56.3,
+   45.2,
+   43.2
+  ],
+  "pct_satisfeitos": [
+   74.3,
+   66.8,
+   68.2
+  ],
+  "pct_buscando_emprego": [
+   29.1,
+   41.4,
+   38.6
+  ]
+ },
+ "regiao_2025": {
+  "categorias": [
+   "Sudeste",
+   "Centro-oeste",
+   "Norte",
+   "Sul",
+   "Nordeste"
+  ],
+  "salario_mil": [
+   13.5,
+   12.8,
+   12.7,
+   12.2,
+   10.3
+  ],
+  "pct_remoto": [
+   36.7,
+   33.0,
+   58.3,
+   46.7,
+   52.6
+  ]
+ },
+ "modelo_trabalho_2025": {
+  "categorias": [
+   "100% remoto",
+   "Híbrido flexível",
+   "Híbrido com dias fixos",
+   "100% presencial"
+  ],
+  "atual": [
+   39.7,
+   19.6,
+   20.0,
+   20.8
+  ],
+  "ideal": [
+   42.1,
+   43.0,
+   13.0,
+   1.9
+  ]
+ },
+ "financas_2025": {
+  "categorias": [
+   "Usa IA generativa",
+   "Empresa paga a IA",
+   "Sênior, especialista ou gestor",
+   "100% remoto",
+   "100% presencial",
+   "Mulheres",
+   "Buscando outro emprego"
+  ],
+  "financas": [
+   97.9,
+   56.4,
+   61.2,
+   32.4,
+   16.1,
+   25.6,
+   32.1
+  ],
+  "demais": [
+   97.9,
+   38.7,
+   59.6,
+   41.3,
+   21.8,
+   20.8,
+   35.2
+  ],
+  "salario_financas": 14568,
+  "salario_demais": 12916,
+  "satisfeitos_financas": 75.8,
+  "satisfeitos_demais": 67.4
+ }
+}

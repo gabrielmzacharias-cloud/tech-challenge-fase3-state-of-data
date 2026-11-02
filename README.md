@@ -10,7 +10,7 @@ que assessora uma grande instituição financeira. O pipeline roda na AWS (S3, G
 
 | Entregável | Arquivo |
 |---|---|
-| Apresentação executiva (32 slides, com notas do apresentador) | [`entrega/TechChallenge_Fase3_DTAT.pptx`](entrega/TechChallenge_Fase3_DTAT.pptx) e [`.pdf`](entrega/TechChallenge_Fase3_DTAT.pdf) |
+| Apresentação executiva (35 slides com gráficos nativos e notas do apresentador) | [`entrega/TechChallenge_Fase3_DTAT.pptx`](entrega/TechChallenge_Fase3_DTAT.pptx) e [`.pdf`](entrega/TechChallenge_Fase3_DTAT.pdf) |
 | Diagrama de arquitetura AWS (Draw.io) | [`arquitetura/arquitetura_aws.drawio`](arquitetura/arquitetura_aws.drawio) e [`.png`](arquitetura/arquitetura_aws.png) |
 | Notebooks PySpark para o Glue | [`notebooks/ipynb/`](notebooks/ipynb/) (fontes em [`notebooks/*.py`](notebooks/)) |
 | Consultas SQL do Athena | [`sql/02_consultas_analiticas.sql`](sql/02_consultas_analiticas.sql) e DDL em [`sql/01_athena_ddl.sql`](sql/01_athena_ddl.sql) |
@@ -115,8 +115,9 @@ python scripts/run_sql_local.py      # roda o SQL do Athena com DuckDB sobre os 
 python scripts/build_notebooks.py    # .py (py:percent) -> notebooks/ipynb/*.ipynb
 python scripts/gerar_ddl_athena.py   # gera sql/01_athena_ddl.sql a partir dos Parquet
 python scripts/gerar_arquitetura.py  # gera o .drawio da arquitetura
-python scripts/preparar_graficos_deck.py
-node scripts/gerar_deck.js           # requer pptxgenjs (NODE_PATH) e PPTX_SKILL_DIR para aplicar o tema
+python scripts/preparar_graficos_deck.py  # diagrama de arquitetura recortado para o deck
+python scripts/exportar_dados_deck.py     # séries dos gráficos nativos do deck (Gold -> entrega/assets/dados_deck.json)
+node scripts/gerar_deck.js           # requer pptxgenjs, react, react-dom, react-icons e sharp (NODE_PATH) e PPTX_SKILL_DIR para aplicar o tema
 ```
 
 ## Estrutura
